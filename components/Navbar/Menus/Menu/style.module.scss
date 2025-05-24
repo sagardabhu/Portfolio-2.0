@@ -1,0 +1,43 @@
+.menu {
+  position: relative;
+  display: flex;
+  z-index: 3;
+  .body {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    margin-right: 2em;
+
+    a {
+      color: #ffffff;
+      text-transform: uppercase;
+      font-family: "HouseMontague";
+      font-size: 1.1vw;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-decoration: none;
+    }
+  }
+  .footer {
+    color: #0c0c0c;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+
+    a {
+      font-size: 3vw;
+      padding: 0px 10px 0px 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+@keyframes slider {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
